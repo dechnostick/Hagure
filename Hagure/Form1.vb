@@ -31,7 +31,7 @@ Public Class Form1
             Return
         End Try
 
-        Dim t As String = Math.Floor((DateTime.Now - p.StartTime).TotalMilliseconds) / 1000
+        Dim t As String = (Math.Floor((DateTime.Now - p.StartTime).TotalMilliseconds) / 1000).ToString()
         Me.Label1.Text = Path.GetFileName(f) & vbNewLine & t & " •b" & vbNewLine
 
         Dim l As String = Process.GetCurrentProcess().ProcessName & ".csv"
