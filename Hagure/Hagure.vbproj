@@ -111,7 +111,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1998_low_cost_clock.ico" />
-    <Content Include="readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
